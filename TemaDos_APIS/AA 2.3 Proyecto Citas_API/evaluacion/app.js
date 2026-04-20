@@ -27,7 +27,7 @@ app.get('/', async (req, res) => {
     } catch (error) {
         console.log('Error:', error.message);
         res.render('index', {
-            quote: "No se pudo obtener la cita",
+     
             character: ""
         });
     }
