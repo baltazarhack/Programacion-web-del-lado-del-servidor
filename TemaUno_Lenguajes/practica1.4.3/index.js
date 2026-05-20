@@ -5,6 +5,8 @@ import { fileURLToPath } from "url";
 
 
 
+
+np
 const __dirname = dirname(fileURLToPath(import.meta.url));
 /* import.meta.url proporciona la URL del módulo actual.
 fileURLToPath(import.meta.url) convierte esa URL en una ruta de archivo.

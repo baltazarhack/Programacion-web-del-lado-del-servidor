@@ -1,3 +1,5 @@
+
+
 import { suma, resta, multiplicacion, division } from "./Mate.js";
 
 console.log(suma(10, 5));            // 15

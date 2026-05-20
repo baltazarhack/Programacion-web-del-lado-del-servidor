@@ -3,7 +3,7 @@
 
 import express from 'express';
 import mongoose from "mongoose";
-import dns from "node:dns/promises";
+import dns from "node:dns/promises";                          
 import Usuario from './models/usuario.model.js';
 import dotenv from 'dotenv';
 
@@ -102,4 +102,7 @@ app.get('/', (req, res) => {
 
 app.listen(puerto, () => {
     console.log(`Servidor escuchando en http://localhost:${puerto}`)
+    
 })
+
+
